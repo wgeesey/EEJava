@@ -1,0 +1,40 @@
+
+8********************t1-noproto.xml********************
+¾12:04:03.464 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa61224
+¦12:04:03.576 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [t1-noproto.xml]
+Ÿ12:04:03.599 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'producer'
+H12:04:03.600 [Test worker] INFO c04.Producer - constructed as 736d6a5c
+Ÿ12:04:03.609 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consumer'
+S12:04:03.621 [Test worker] INFO c04.Consumer - constructed with producer 736d6a5c
+£12:04:03.621 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'producerBean'
+
+:********************t1-protoboth.xml********************
+¾12:04:03.646 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4a3329b9
+¨12:04:03.667 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 4 bean definitions from class path resource [t1-protoboth.xml]
+£12:04:03.668 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'producerBean'
+£12:04:03.668 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consumerBean'
+H12:04:03.669 [Test worker] INFO c04.Producer - constructed as 1dd0e7c4
+H12:04:03.669 [Test worker] INFO c04.Producer - constructed as 7894f09b
+H12:04:03.669 [Test worker] INFO c04.Producer - constructed as 3d484181
+S12:04:03.670 [Test worker] INFO c04.Consumer - constructed with producer 3d484181
+H12:04:03.670 [Test worker] INFO c04.Producer - constructed as 7be58f16
+S12:04:03.670 [Test worker] INFO c04.Consumer - constructed with producer 7be58f16
+
+:********************t1-protocons.xml********************
+¾12:04:03.671 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b11a194
+¨12:04:03.685 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [t1-protocons.xml]
+Ÿ12:04:03.686 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'producer'
+H12:04:03.686 [Test worker] INFO c04.Producer - constructed as 652a7737
+£12:04:03.687 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consumerBean'
+S12:04:03.689 [Test worker] INFO c04.Consumer - constructed with producer 652a7737
+S12:04:03.689 [Test worker] INFO c04.Consumer - constructed with producer 652a7737
+
+:********************t1-protoprod.xml********************
+¾12:04:03.690 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@30f5a68a
+¨12:04:03.701 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [t1-protoprod.xml]
+Ÿ12:04:03.703 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'consumer'
+H12:04:03.703 [Test worker] INFO c04.Producer - constructed as 485a3466
+S12:04:03.704 [Test worker] INFO c04.Consumer - constructed with producer 485a3466
+£12:04:03.704 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'producerBean'
+H12:04:03.705 [Test worker] INFO c04.Producer - constructed as 4264b240
+H12:04:03.705 [Test worker] INFO c04.Producer - constructed as 5b04476e
