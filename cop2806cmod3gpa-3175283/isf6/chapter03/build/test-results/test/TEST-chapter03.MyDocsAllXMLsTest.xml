@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chapter03.MyDocsAllXMLsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-05-31T21:14:43" hostname="DESKTOP-V3QDITO" time="0.374">
+  <properties/>
+  <testcase name="testSpring[0](classpath:/documents.xml)" classname="chapter03.MyDocsAllXMLsTest" time="0.181"/>
+  <testcase name="testSpring[1](classpath:/doccons.xml)" classname="chapter03.MyDocsAllXMLsTest" time="0.05"/>
+  <testcase name="testSpring[2](classpath:/docdata.xml)" classname="chapter03.MyDocsAllXMLsTest" time="0.06"/>
+  <testcase name="testSpring[3](classpath:/docscan.xml)" classname="chapter03.MyDocsAllXMLsTest" time="0.082"/>
+  <system-out><![CDATA[17:14:43.958 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f40e5db
+17:14:44.075 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [documents.xml]
+17:14:44.097 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'engine'
+17:14:44.120 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7fcbe147
+17:14:44.144 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [doccons.xml]
+17:14:44.145 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'engine'
+17:14:44.170 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f94c4db
+17:14:44.199 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [docdata.xml]
+17:14:44.201 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'engine'
+17:14:44.201 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'documentList'
+17:14:44.230 [Test worker] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6f70f32f
+17:14:44.273 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\willi\Downloads\cop2806cmod3gpa-3175283\isf6\chapter03\build\classes\java\test\chapter03\service\ScannedSearchEngine.class]
+17:14:44.285 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 5 bean definitions from class path resource [docscan.xml]
+17:14:44.286 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+17:14:44.305 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+17:14:44.306 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+17:14:44.306 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+17:14:44.307 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scannedSearchEngine'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
