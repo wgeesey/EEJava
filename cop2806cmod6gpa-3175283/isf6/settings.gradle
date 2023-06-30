@@ -1,0 +1,18 @@
+//tag::chapter01[]
+pluginManagement {
+    repositories {
+        maven {
+            url "https://repo.spring.io/milestone"
+        }
+        maven {
+            url "https://repo.spring.io/snapshot"
+            mavenContent {
+                snapshotsOnly()
+            }
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'isf6'
+include 'chapter06'
